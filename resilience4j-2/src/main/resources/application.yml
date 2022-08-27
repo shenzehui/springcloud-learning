@@ -1,0 +1,28 @@
+resilience4j:
+  retry:
+    retry-aspect-order: 399 # 表示Retry的优先级
+    backends:
+      retryA:  #自定义重试名称
+        maxRetryAttempts: 5 # 重试的次数
+        waitDuration: 500   # 重试的等待时间
+        exponentialBackoffMultiplier: 1.1   #间隔乘数  一般网络波动是由规律的，间隔1 1.1 1.1*1.1 访问 有效避开网络波动
+        retryExecptions:
+         - java.lang.RuntimeException
+  circuitbreaker:
+    instances:
+      cbA:
+        ringBufferSizeInClosedState: 5
+        ringBufferSizeInHalfOpenState: 3
+        waitInterval: 5000
+        recordsException:
+          - org.springframeword.web.client.HttpServerErrorException   # 服务端报错就自动降级
+    circuit-breaker-aspect-order: 398  #优先级
+spring:
+  application:
+    name: resilience4j
+server:
+  port: 5000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka
