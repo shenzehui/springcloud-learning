@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/博客-Java达摩院-brightgreen.svg?style=for-the-badge"></a>
   <a href="https://spring.io/projects/spring-security"><img src="https://img.shields.io/badge/公众号-Encho-green.svg?style=for-the-badge"></a>
-  <a href="https://spring.io/" target="_blank"><img src="https://img.shields.io/badge/交流群-Encho-critical?style=for-the-badge"></a>
+  <a href="https://spring.io/" target="_blank"><img src="https://img.shields.io/badge/关于我-about-critical?style=for-the-badge"></a>
 </p>
 
 ## 目标
