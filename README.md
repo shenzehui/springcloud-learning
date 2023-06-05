@@ -1,4 +1,4 @@
-# 👉前言
+# 👉快速开始
 
 <p align="center">
   <a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/博客-Java达摩院-brightgreen.svg?style=for-the-badge"></a>
@@ -6,13 +6,14 @@
   <a href="https://spring.io/" target="_blank"><img src="https://img.shields.io/badge/关于我-about-critical?style=for-the-badge"></a>
 </p>
 
+
 ## 目标
 
 1. 了解微服务的由来以及基本原理 
-1. 学会 Spring Cloud 中各个组件的使用 
-1. 了解 Spring Cloud 中核心组件的运行原理 
-1. 掌握通过 Spring Cloud 搭建微服务架构 
-1. 掌握辅助组件的用法
+2. 学会 Spring Cloud 中各个组件的使用 
+3. 了解 Spring Cloud 中核心组件的运行原理 
+4. 掌握通过 Spring Cloud 搭建微服务架构 
+5. 掌握辅助组件的用法
 
 ## Spring Cloud 简介
 
@@ -59,7 +60,7 @@
 
 ### 从单体到微服务
 
-![image-20230513224547053](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230513224547053.png)
+![image-20230605214752118](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230605214752118.png)
 
 ### 主流的微服务架构框架
 
@@ -102,7 +103,7 @@
 
 **通过服务注册与发现中心实现服务间的相互发现**
 
-![image-20230513224658543](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230513224658543.png)
+![image-20230605215104128](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230605215104128.png)
 
 - 服务注册与发现中心也是一台服务器
 - 服务提供者在服务注册与发现中心进行注册
@@ -138,7 +139,7 @@
 
 ##### 服务故障雪崩
 
-![image-20230513224947565](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230513224947565.png)
+![image-20230605215217384](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230605215217384.png)
 
 ##### 如何解决服务故障雪崩
 
@@ -149,4 +150,4 @@
 
 **通过路由网关实现接口的统一访问**
 
-![image-20230513225049718](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230513225049718.png)
+![image-20230605215409455](https://javablog-image.oss-cn-hangzhou.aliyuncs.com/blog/image-20230605215409455.png)
