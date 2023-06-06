@@ -33,22 +33,22 @@
 
 ### Spring Cloud 包含的组件
 
-- Spring Cloud Netflix：这个组件，在 Spring Cloud 成立之初，立下了汗马功劳，但是，2018年的断更，也是Netfilx 掉链子了
-- Spring Cloud Config：分布式配置中心，利用 `Git`/Svn 来集中管理项目的配置文件
-- Spring Cloud Bus：消息总线，可以构建消息驱动的微服务，也可以用来做一些状态管理
-- Spring Cloud Consul:：服务注册发现
-- Spring Cloud Stream：基于 Redis、RabbitMQ、Kafka 实现的消息微服务
-- Spring Cloud OpenFeign：提供 OpenFeign 集成到 Spring Boot 应用中的方式，主要解决微服务之间的调用问题
-- Spring Cloud Gateway：Spring Cloud 官方推出的网关服务
-- Spring Cloud Cloudfoundry：利用 Cloudfoundry 集成我们的应用程序
-- Spring Cloud Security：在 Zuul 代理中为 OAuth2 客户端认证提供支持
-- Spring Cloud AWS ：快速集成亚马逊云服务
-- Spring Cloud Contract：一个消费者驱动，面向 Java 的契约框架
-- Spring Cloud Zookeeper：基于 Apache Zookeeper 的服务注册发现
-- Spring Cloud Data Flow：在一个结构化的平台上，组成数据微服务
-- Spring Cloud Kubernetes：Spring Cloud 提供的针对 Kubernetes 的支持
-- Spring Cloud Function
-- Spring Cloud Task：短生命周期的微服务
+- **Spring Cloud Netflix**：这个组件，在 Spring Cloud 成立之初，立下了汗马功劳，但是，2018年的断更，也是Netfilx 掉链子了
+- **Spring Cloud Config**：分布式配置中心，利用 `Git`/Svn 来集中管理项目的配置文件
+- **Spring Cloud Bus**：消息总线，可以构建消息驱动的微服务，也可以用来做一些状态管理
+- **Spring Cloud Consul**:：服务注册发现
+- **Spring Cloud Stream**：基于 Redis、RabbitMQ、Kafka 实现的消息微服务
+- **Spring Cloud OpenFeign**：提供 OpenFeign 集成到 Spring Boot 应用中的方式，主要解决微服务之间的调用问题
+- **Spring Cloud Gateway**：Spring Cloud 官方推出的网关服务
+- **Spring Cloud Cloudfoundry**：利用 Cloudfoundry 集成我们的应用程序
+- **Spring Cloud Security**：在 Zuul 代理中为 OAuth2 客户端认证提供支持
+- **Spring Cloud AWS** ：快速集成亚马逊云服务
+- **Spring Cloud Contract**：一个消费者驱动，面向 Java 的契约框架
+- **Spring Cloud Zookeeper**：基于 Apache Zookeeper 的服务注册发现
+- **Spring Cloud Data Flow**：在一个结构化的平台上，组成数据微服务
+- **Spring Cloud Kubernetes**：Spring Cloud 提供的针对 Kubernetes 的支持
+- **Spring Cloud Function**
+- **Spring Cloud Task**：短生命周期的微服务
 
 ### Spring Cloud 和 Spring Boot 版本关系
 
